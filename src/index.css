@@ -1,0 +1,111 @@
+:root {
+	--light-green: #04ddb2;
+	--light-red: #f34747;
+	--white: #fff;
+	--dark-grey: #333;
+	--med-grey: #767676;
+
+	font-family: LabGrotesque, Helvetica Neue, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: var(--dark-grey);
+	background-color: var(--white);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-container {
+	padding: 14px 40px 0;
+	width: 100%;
+	position: fixed;
+	flex-direction: row;
+	height: 80px;
+	z-index: 100;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-inline: 24px;
+}
+
+.site-logo {
+	font-weight: bold;
+	font-size: 27px;
+}
+
+.site-logo a {
+	color: var(--dark-grey);
+	display: block;
+	position: relative;
+}
+
+.site-logo a::before,
+.site-logo a::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	border-radius: 3px;
+}
+
+.site-logo a::before {
+	top: 11px;
+	right: -18px;
+	background-color: rgba(4, 221, 178, 0.5);
+}
+
+.site-logo a::after {
+	bottom: 10px;
+	right: -24px;
+	background-color: rgba(243, 71, 71, 0.8);
+	z-index: -1;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	gap: 47px;
+	margin-left: 69px;
+}
+
+.nav a {
+	color: var(--med-grey);
+}
+
+.download-btn {
+	width: 129px;
+	height: 48px;
+	border-radius: 24px;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: #eef0f2;
+	border: none;
+	color: var(--dark-grey);
+}
+
+.main-content {
+	padding: 80px 40px;
+}
