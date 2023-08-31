@@ -41,6 +41,7 @@ a {
 	flex-direction: row;
 	height: 80px;
 	z-index: 100;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header {
@@ -91,8 +92,15 @@ a {
 	margin-left: 69px;
 }
 
-.nav a {
+.nav-link {
 	color: var(--med-grey);
+	transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+	transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+	color: var(--dark-grey);
+	font-weight: 500;
 }
 
 .download-btn {
@@ -104,8 +112,41 @@ a {
 	background-color: #eef0f2;
 	border: none;
 	color: var(--dark-grey);
+	transition: 0.2s ease-in-out;
+}
+
+.download-btn:hover {
+	background-color: var(--light-green);
+	color: var(--white);
 }
 
 .main-content {
 	padding: 80px 40px;
 }
+
+/* Examples Page Styling */
+
+.heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 1088px;
+}
+
+.heading .title {
+	font-size: 64px;
+	margin-bottom: 10px;
+}
+
+.heading .title span {
+	color: var(--light-green);
+}
+
+.heading .subheading {
+	font-size: 26px;
+	max-width: 600px;
+	margin-block: 10px;
+}
+
+/* Video Card Styling */

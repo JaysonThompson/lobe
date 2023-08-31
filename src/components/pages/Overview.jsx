@@ -1,3 +1,7 @@
 export default function Overview() {
-	return <div>Overview</div>;
+	return (
+		<div>
+			<h1>Overview</h1>
+		</div>
+	);
 }
