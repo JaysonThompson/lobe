@@ -131,6 +131,7 @@ a {
 	border: none;
 	transition: 0.2s ease-in-out;
 }
+
 .main-content {
 	padding: 80px 40px;
 }
@@ -209,6 +210,34 @@ a {
 .tour-video-container img {
 	border-radius: 24px;
 	max-width: 1088px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+.tour-video-container img:hover {
+	transform: scale3d(1.01, 1.01, 1.01);
+}
+
+.modal {
+	border: none;
+	border-radius: 24px;
+	background: #000;
+}
+
+.modal::backdrop {
+	background: rgb(0 0 0 / 0.6);
+}
+
+.modal video {
+	width: 100%;
+}
+
+.modal .close-button {
+	position: fixed;
+	top: 75px;
+	right: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 }
 
 /* Final Call to Action Styling */
