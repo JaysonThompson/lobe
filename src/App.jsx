@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layouts from "./components/Layouts";
-import Home from "./components/pages/Home";
 import Overview from "./components/pages/Overview";
 import Examples from "./components/pages/Examples";
 import Tour from "./components/pages/Tour";
@@ -15,8 +14,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Layouts />}>
-					<Route index path="home" element={<Home />} />
-					<Route path="overview" element={<Overview />} />
+					<Route index path="overview" element={<Overview />} />
 					<Route path="examples" element={<Examples />} />
 					<Route path="tour" element={<Tour />} />
 					<Route path="blog" element={<Blog />} />
