@@ -17,18 +17,16 @@ export default function Examples() {
 
 	return (
 		<div>
-			<section>
-				<div className="heading">
-					<h1 className="title">
-						Lobe <span>Examples</span>
-					</h1>
-					<p className="subheading">
-						One tool, endless possibilities. Discover all the
-						machine learning models you can train in Lobe.
-					</p>
-				</div>
+			<section className="heading">
+				<h1 className="title">
+					Lobe <span>Examples</span>
+				</h1>
+				<p className="subheading">
+					One tool, endless possibilities. Discover all the machine
+					learning models you can train in Lobe.
+				</p>
 			</section>
-			<section>{videoCardEl}</section>
+			<section className="video-container">{videoCardEl}</section>
 		</div>
 	);
 }
