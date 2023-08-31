@@ -104,7 +104,7 @@ a {
 	font-weight: 500;
 }
 
-.download-btn {
+.header .download-btn {
 	width: 129px;
 	height: 48px;
 	border-radius: 24px;
@@ -116,16 +116,26 @@ a {
 	transition: 0.2s ease-in-out;
 }
 
+.download-btn,
 .download-btn:hover {
 	background-color: var(--light-green);
 	color: var(--white);
 }
 
+.download-btn {
+	width: 129px;
+	height: 48px;
+	border-radius: 24px;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+	transition: 0.2s ease-in-out;
+}
 .main-content {
 	padding: 80px 40px;
 }
 
-/* Examples Page Styling */
+/* Headings Styling */
 
 .heading {
 	display: flex;
@@ -156,9 +166,8 @@ a {
 .video-container {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
-	gap: 45px;
 	justify-content: center;
+	gap: 45px;
 }
 
 .video-card {
@@ -187,4 +196,33 @@ a {
 	font-size: 22px;
 	line-height: 1.5;
 	margin: 0 0 8px 0;
+}
+
+/* Video Tour Page Styling */
+
+.tour-video-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 54px;
+}
+
+.tour-video-container img {
+	border-radius: 24px;
+	max-width: 1088px;
+}
+
+/* Final Call to Action Styling */
+
+.final-action {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 48px;
+}
+
+.final-action h2 {
+	font-size: 64px;
+	max-width: 500px;
+	text-align: center;
+	line-height: 1.05;
 }

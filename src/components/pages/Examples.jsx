@@ -1,4 +1,7 @@
 import VideoCard from "../VideoCard";
+import PageHeading from "../PageHeading";
+import FinalCallToAction from "../FinalCallToAction";
+
 import { videoCardData } from "../../constants";
 
 export default function Examples() {
@@ -17,16 +20,12 @@ export default function Examples() {
 
 	return (
 		<div>
-			<section className="heading">
-				<h1 className="title">
-					Lobe <span>Examples</span>
-				</h1>
-				<p className="subheading">
-					One tool, endless possibilities. Discover all the machine
-					learning models you can train in Lobe.
-				</p>
-			</section>
+			<PageHeading
+				title="Examples"
+				subheading="One tool, endless possibilities. Discover all the machine learning models you can train with Lobe."
+			/>
 			<section className="video-container">{videoCardEl}</section>
+			<FinalCallToAction />
 		</div>
 	);
 }

@@ -1,7 +1,14 @@
+import PageHeading from "../PageHeading";
+import FinalCallToAction from "../FinalCallToAction";
+
 export default function Help() {
 	return (
 		<div>
-			<h1>Help</h1>
+			<PageHeading
+				title="Help"
+				subheading="Everything you need to know to train great machine learning models with Lobe."
+			/>
+			<FinalCallToAction />
 		</div>
 	);
 }
