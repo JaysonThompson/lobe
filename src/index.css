@@ -232,9 +232,6 @@ a {
 }
 
 .modal .close-button {
-	position: fixed;
-	top: 75px;
-	right: 20px;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
