@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import ConfettiButton from "./ConfettiButton";
 
 export default function Header() {
 	const active = {
@@ -6,6 +7,7 @@ export default function Header() {
 		fontWeight: "500",
 		transform: "translateY(-1px) scale3d(1.03, 1.03, 1.03)",
 	};
+
 	return (
 		<div className="header-container">
 			<header className="header">
@@ -51,7 +53,7 @@ export default function Header() {
 						Help
 					</NavLink>
 				</nav>
-				<button className="download-btn">Download</button>
+				<ConfettiButton styleClass="download-btn" label="Download" />
 			</header>
 		</div>
 	);
