@@ -20,6 +20,7 @@ function ConfettiButton({ label, styleClass }) {
 					colors={["#04ddb2", "#f34747"]}
 					force={0.8}
 					width={2000}
+					zIndex={-1}
 				/>
 			)}
 			{label}
