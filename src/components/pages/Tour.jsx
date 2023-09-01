@@ -1,8 +1,8 @@
 import PageHeading from "../PageHeading";
 import FinalCallToAction from "../FinalCallToAction";
 
-import videoImage from "../../../assets/Video.jpg";
-import tourVideo from "../../../assets/videos/TourVideo.mp4";
+import videoImage from "../../assets/Video.jpg";
+import tourVideo from "../../assets/videos/TourVideo.mp4";
 
 export default function Tour() {
 	function openModal() {
