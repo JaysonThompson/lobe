@@ -22,7 +22,7 @@ import Sleeping from "./videos/Sleeping.mp4";
 import Telescope from "./videos/Telescope.mp4";
 import TourVideo from "./videos/TourVideo.mp4";
 import Whales from "./videos/Whales.mp4";
-import WildFire from "./videos/WildFire.mp4";
+import WildFire from "./videos/Wildfire.mp4";
 
 export {
 	anywhereIcon,
