@@ -18,7 +18,7 @@ export default function Header() {
 				</div>
 				<nav className="nav">
 					<NavLink
-						to="overview"
+						to="/"
 						className="nav-link"
 						style={({ isActive }) => (isActive ? active : null)}
 					>
