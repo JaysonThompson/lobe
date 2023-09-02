@@ -40,7 +40,7 @@ a {
 	position: fixed;
 	flex-direction: row;
 	height: 80px;
-	z-index: 100;
+	z-index: 1;
 	background-color: rgba(255, 255, 255, 0.5);
 	backdrop-filter: blur(20px);
 }
@@ -254,4 +254,35 @@ a {
 	max-width: 500px;
 	text-align: center;
 	line-height: 1.05;
+}
+
+/* Hero Styling */
+.buttons-container {
+	display: flex;
+	gap: 30px;
+}
+button.video-tour {
+	background-color: transparent;
+	color: var(--light-green);
+	font-size: 24px;
+	border: none;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+}
+
+button.large {
+	width: 200px;
+	height: 64px;
+	border-radius: 32px;
+	background-color: #04ddb2;
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	font-family: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+	cursor: pointer;
+	transition: 0.4s;
+	box-shadow: 0 10px 20px -8px transparent;
 }

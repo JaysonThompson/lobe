@@ -1,20 +1,13 @@
 import PageHeading from "../PageHeading";
 import FinalCallToAction from "../FinalCallToAction";
+import VideoModal from "../VideoModal";
 
 import videoImage from "../../assets/Video.jpg";
-import tourVideo from "../../assets/videos/TourVideo.mp4";
+import videoTour from "../../assets/videos/TourVideo.mp4";
+
+import { openModal } from "../../utils";
 
 export default function Tour() {
-	function openModal() {
-		const modal = document.querySelector("#modal");
-		modal.showModal();
-	}
-
-	function closeModal() {
-		const modal = document.querySelector("#modal");
-		modal.close();
-	}
-
 	return (
 		<div>
 			<PageHeading
@@ -28,12 +21,7 @@ export default function Tour() {
 					alt="Learn more about Lobe by watching our video."
 				/>
 			</div>
-			<dialog className="modal" id="modal">
-				<video src={tourVideo} autoPlay muted controls />
-				<button className="close-button" onClick={closeModal}>
-					X
-				</button>
-			</dialog>
+			<VideoModal videoFile={videoTour} />
 			<FinalCallToAction />
 		</div>
 	);
