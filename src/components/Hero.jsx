@@ -11,23 +11,23 @@ export default function Hero() {
 		<div className="hero-container">
 			<div className="heading">
 				<h1 className="title">
-					Train apps to <span> Identify Plants</span>
+					Train apps to <span> identify plants</span>
 				</h1>
 				<p className="subheading">
 					Lobe helps you train machine learning models with a free,
 					easy to use tool.
 				</p>
+				<div className="buttons-container">
+					<ConfettiButton
+						styleClass="download-btn large"
+						label="Download"
+					/>
+					<button onClick={openModal} className="video-tour">
+						Watch Tour <BiPlayCircle />
+					</button>
+				</div>
+				<VideoModal videoFile={videoTour} />
 			</div>
-			<div className="buttons-container">
-				<ConfettiButton
-					styleClass="download-btn large"
-					label="Download"
-				/>
-				<button onClick={openModal} className="video-tour">
-					Watch Tour <BiPlayCircle height={39} width={39} />
-				</button>
-			</div>
-			<VideoModal videoFile={videoTour} />
 		</div>
 	);
 }

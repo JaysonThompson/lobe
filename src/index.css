@@ -271,6 +271,7 @@ button.video-tour {
 	align-items: center;
 	gap: 10px;
 	cursor: pointer;
+	transition: 0.4s;
 }
 
 button.large {
@@ -285,4 +286,9 @@ button.large {
 	cursor: pointer;
 	transition: 0.4s;
 	box-shadow: 0 10px 20px -8px transparent;
+}
+
+button.large:hover,
+button.video-tour:hover {
+	transform: scale3d(1.05, 1.05, 1.05);
 }
