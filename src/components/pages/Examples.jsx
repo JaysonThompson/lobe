@@ -19,13 +19,13 @@ export default function Examples() {
 	);
 
 	return (
-		<div>
+		<>
 			<PageHeading
 				title="Examples"
 				subheading="One tool, endless possibilities. Discover all the machine learning models you can train with Lobe."
 			/>
 			<section className="video-container">{videoCardEl}</section>
 			<FinalCallToAction />
-		</div>
+		</>
 	);
 }

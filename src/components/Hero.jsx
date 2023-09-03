@@ -7,12 +7,27 @@ import { openModal } from "../utils";
 import videoTour from "../assets/videos/TourVideo.mp4";
 
 export default function Hero() {
+	const titleArray = [
+		"indentify plants",
+		"see gestures",
+		"count reps",
+		"feel emotioins",
+		"sense colors",
+		"check safety",
+	];
+
+	const titleLoop = titleArray.map((title) => {
+		setTimeout(() => {
+			return title;
+		}, 500);
+	});
+	console.log(titleLoop);
+	console.log(titleArray);
+
 	return (
-		<div className="hero-container">
+		<section className="hero-container">
 			<div className="heading">
-				<h1 className="title">
-					Train apps to <span> identify plants</span>
-				</h1>
+				<h1 className="title">Train apps to {titleLoop}</h1>
 				<p className="subheading">
 					Lobe helps you train machine learning models with a free,
 					easy to use tool.
@@ -28,6 +43,6 @@ export default function Hero() {
 				</div>
 				<VideoModal videoFile={videoTour} />
 			</div>
-		</div>
+		</section>
 	);
 }
