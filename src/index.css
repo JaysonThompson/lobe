@@ -38,7 +38,6 @@ a {
 	padding: 14px 40px 0;
 	width: 100%;
 	position: fixed;
-	flex-direction: row;
 	height: 80px;
 	z-index: 1;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -55,6 +54,8 @@ a {
 .site-logo {
 	font-weight: bold;
 	font-size: 27px;
+	position: relative;
+	left: 42px;
 }
 
 .site-logo a {
@@ -257,6 +258,26 @@ a {
 }
 
 /* Hero Styling */
+.hero-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 65px;
+}
+
+.hero-container .heading {
+	display: block;
+	margin-top: 75px;
+	margin-left: 100px;
+}
+
+.hero-container .title {
+	font-size: 80px;
+}
+
+.hero-container .subheading {
+	text-align: left;
+}
+
 .buttons-container {
 	display: flex;
 	gap: 30px;
