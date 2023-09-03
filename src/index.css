@@ -134,7 +134,7 @@ a {
 }
 
 .main {
-	padding: 80px 40px;
+	padding: 80px 0;
 }
 
 /* Headings Styling */
@@ -274,7 +274,8 @@ a {
 	font-size: 80px;
 }
 
-.hero-container .subheading {
+.hero-container .subheading,
+.made-easy .subheading {
 	text-align: left;
 }
 
@@ -282,6 +283,7 @@ a {
 	display: flex;
 	gap: 30px;
 }
+
 button.video-tour {
 	background-color: transparent;
 	color: var(--light-green);
@@ -312,4 +314,22 @@ button.large {
 button.large:hover,
 button.video-tour:hover {
 	transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.made-easy {
+	background-color: #f2f3f5;
+	display: block;
+	max-width: 100%;
+}
+
+.made-easy .heading {
+	align-items: flex-start;
+	padding-left: 300px;
+}
+
+.made-easy-img {
+	width: 100%;
+	position: relative;
+	left: 200px;
+	padding-right: 400px;
 }

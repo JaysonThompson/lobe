@@ -20,7 +20,7 @@ export default function Hero() {
 	setInterval(() => {
 		document.querySelector(".alternating-text").textContent = titleArray[i];
 		i = ++i % titleArray.length;
-	}, 4950);
+	}, 4850);
 
 	return (
 		<section className="hero-container">
