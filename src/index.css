@@ -225,7 +225,7 @@ a {
 	background: #000;
 
 	&::backdrop {
-		background: rgb(0 0 0 / 0.6);
+		background-color: rgb(0 0 0 / 0.6);
 	}
 
 	& video {
