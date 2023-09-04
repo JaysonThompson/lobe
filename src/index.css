@@ -284,35 +284,35 @@ a {
 	gap: 30px;
 }
 
-button.video-tour {
-	background-color: transparent;
-	color: var(--light-green);
-	font-size: 24px;
-	border: none;
-	font-weight: 700;
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	cursor: pointer;
-	transition: 0.4s;
-}
-
-button.large {
-	width: 200px;
-	height: 64px;
-	border-radius: 32px;
-	background-color: #04ddb2;
-	color: #fff;
-	font-weight: 700;
-	font-size: 24px;
-	cursor: pointer;
-	transition: 0.4s;
-	box-shadow: 0 10px 20px -8px transparent;
-}
-
-button.large:hover,
-button.video-tour:hover {
-	transform: scale3d(1.05, 1.05, 1.05);
+button {
+	&.video-tour {
+		background-color: transparent;
+		color: var(--light-green);
+		font-size: 24px;
+		border: none;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		cursor: pointer;
+		transition: 0.4s;
+	}
+	&.large {
+		width: 200px;
+		height: 64px;
+		border-radius: 32px;
+		background-color: #04ddb2;
+		color: #fff;
+		font-weight: 700;
+		font-size: 24px;
+		cursor: pointer;
+		transition: 0.4s;
+		box-shadow: 0 10px 20px -8px transparent;
+	}
+	&.large:hover,
+	&.video-tour:hover {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
 }
 
 .made-easy {
