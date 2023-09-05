@@ -275,7 +275,7 @@ a {
 .hero-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 65px;
+	margin: 65px 0 0 105px;
 
 	& .heading {
 		display: block;
@@ -338,12 +338,22 @@ button {
 
 	& .heading {
 		align-items: flex-start;
-		padding-left: 300px;
+		padding-left: 290px;
+	}
+
+	& .subheading {
+		max-width: 850px;
 	}
 }
 
-.made-easy-img {
-	width: 100%;
+.image-container {
+	display: flex;
+	margin-left: 10px;
+
+	& .made-easy-img {
+		max-width: 1312px;
+		margin: auto;
+	}
 }
 
 /* Blog Card Styling */

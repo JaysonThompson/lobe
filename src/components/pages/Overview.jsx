@@ -21,11 +21,13 @@ export default function Overview() {
 						your app.
 					</p>
 				</div>
-				<img
-					className="made-easy-img"
-					src={MadeEasy}
-					alt="Machine Learning Made Easy"
-				/>
+				<div className="image-container">
+					<img
+						className="made-easy-img"
+						src={MadeEasy}
+						alt="Machine Learning Made Easy"
+					/>
+				</div>
 			</section>
 			<FinalCallToAction />
 		</div>
