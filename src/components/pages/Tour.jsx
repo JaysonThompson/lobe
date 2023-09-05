@@ -9,7 +9,7 @@ import { openModal } from "../../utils";
 
 export default function Tour() {
 	return (
-		<>
+		<div id="tour">
 			<PageHeading
 				title="Tour"
 				subheading="Build your first machine learning model in ten minutes. No code or experience required."
@@ -23,6 +23,6 @@ export default function Tour() {
 			</section>
 			<VideoModal videoFile={videoTour} />
 			<FinalCallToAction />
-		</>
+		</div>
 	);
 }

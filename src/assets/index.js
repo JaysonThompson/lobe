@@ -24,6 +24,14 @@ import TourVideo from "./videos/TourVideo.mp4";
 import Whales from "./videos/Whales.mp4";
 import WildFire from "./videos/Wildfire.mp4";
 
+import Adafruit from "./images/Adafruit.jpg";
+import Bison from "./images/Bison.jpg";
+import CreditCards from "./images/CreditCards.jpg";
+import Image2 from "./images/Image2.jpg";
+import Parrot from "./images/Parrot.jpg";
+import PlantsOverlay from "./images/PlantsOverlay.jpg";
+import PowerPlatform from "./images/PowerPlatform.png";
+
 export {
 	anywhereIcon,
 	easyIcon,
@@ -49,4 +57,11 @@ export {
 	TourVideo,
 	Whales,
 	WildFire,
+	Adafruit,
+	Bison,
+	CreditCards,
+	Image2,
+	Parrot,
+	PlantsOverlay,
+	PowerPlatform,
 };

@@ -5,7 +5,7 @@ import MadeEasy from "../../assets/MadeEasy.jpg";
 
 export default function Overview() {
 	return (
-		<>
+		<div id="overview">
 			<Hero />
 			<section className="made-easy">
 				<div className="heading">
@@ -28,6 +28,6 @@ export default function Overview() {
 				/>
 			</section>
 			<FinalCallToAction />
-		</>
+		</div>
 	);
 }
