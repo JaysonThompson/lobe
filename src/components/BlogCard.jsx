@@ -7,7 +7,7 @@ function BlogCard({ title, intro, image, releaseDate }) {
 			<div className="blog-card-content">
 				<h2 className="title">{title}</h2>
 				<p className="description">{intro}</p>
-				<p className="release-date">{releaseDate}</p>
+				<p className="release-date">Released: {releaseDate}</p>
 			</div>
 		</div>
 	);
