@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function BlogCard({ title, intro, image, releaseDate }) {
 	return (
-		<div className="video-card">
+		<div className="blog-card">
 			<img src={image} alt={title} className="blog-image" />
 			<div className="blog-card-content">
 				<h2 className="title">{title}</h2>
