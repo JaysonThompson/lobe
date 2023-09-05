@@ -373,14 +373,18 @@ button {
 	padding: 28px 32px 32px;
 
 	& .title {
-		margin: 0;
-		font-size: 22px;
+		margin-block: 0 8px;
+		font-size: 24px;
 		font-weight: 900;
 	}
 
 	& .intro {
-		font-size: 22px;
-		line-height: 1.5;
-		margin: 0 0 8px 0;
+		font-size: 24px;
+		line-height: 1.67;
+		margin: 0 0 56px 0;
+	}
+
+	& .release-date {
+		color: var(--med-grey);
 	}
 }
